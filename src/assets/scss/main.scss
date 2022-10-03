@@ -1,0 +1,29 @@
+//Theming Bootstrap
+$primary: #71a3ff;
+$min-contrast-ratio: 2.5;
+$gray-100: #f8f9fa !default;
+// scss-docs-start spacer-variables-maps
+$spacer: 1rem !default;
+$spacers: (
+        0: 0,
+        1: $spacer * .25,
+        2: $spacer * .5,
+        3: $spacer,
+        4: $spacer * 1.5,
+        5: $spacer * 3,
+        6: $spacer * 5,
+        7: $spacer * 7,
+) !default;
+
+@import "bootstrap/scss/bootstrap";
+
+.btn {
+  padding: .375rem 3.81rem;
+  @media (max-width: 576px) {
+    padding: .375rem .75rem;
+  }
+}
+
+.active {
+  color: #71a3ff !important;
+}
