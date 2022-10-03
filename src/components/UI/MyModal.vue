@@ -1,7 +1,7 @@
 <template>
   <div class="dialog" v-if="show" @click="hideDialog">
     <div @click.stop class="dialog__content rounded bg-white px-4 py-3 m-auto align-items-center">
-      <div class="text-center m-0 py-5" >
+      <div class="text-center m-0 py-5">
         <h3>Thank you for getting in touch!</h3>
         <p class="text-muted">
           We appreciate you contacting Success Craft. One of our colleagues will get back in touch with you soon!Have a
